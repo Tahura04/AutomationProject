@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.test_day2.Day2_LoginTest">
+        <methods>
+          <include name="test3_emptyField_showsError"/>
+          <include name="test2_invalidLogin_fail"/>
+          <include name="test1_validLogin_success"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.test_day2.Day2_LoginTest -->
+      <class name="com.test_day3.Day3_AdminTest">
+        <methods>
+          <include name="test2_searchAndDeleteUser"/>
+          <include name="test1_addUser"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.test_day3.Day3_AdminTest -->
+      <class name="com.test_day5.Day5_LeaveTest">
+        <methods>
+          <include name="test1_applyLeave"/>
+          <include name="tearDown"/>
+          <include name="test2_searchMyLeave"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.test_day5.Day5_LeaveTest -->
+      <class name="com.test_day4.Day4_PimTest">
+        <methods>
+          <include name="test1_addEmployee"/>
+          <include name="tearDown"/>
+          <include name="test2_searchEmployee"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.test_day4.Day4_PimTest -->
+      <class name="com.test_day6.Day6_MyInfoTest">
+        <methods>
+          <include name="test1_verifyMyInfoPage"/>
+          <include name="test2_updatePersonalDetails"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.test_day6.Day6_MyInfoTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
